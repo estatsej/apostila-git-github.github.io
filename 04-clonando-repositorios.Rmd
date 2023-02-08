@@ -1,0 +1,35 @@
+# Clonando um repositório do Github
+
+## Método 1 (Manualmente)
+
+### Remotamente
+
+Caso em que há um repositório no github e queremos baixá-lo em nosso PC
+
+- Copie a URL do projeto de interesse no Github:
+
+```{r clonegithub, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("imgs/githubclone.png")
+```
+
+- Abra o Rstuido e vá em New project > Version control > Git . Depois use coloque a URL no campo "Repository URL" obtida no passo 1:
+
+```{r gitmenu, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("imgs/gitrstudio.png")
+```
+
+E clique em *Create Project*.
+
+Caso o repositorio não seja público. Então, primeiro precisamos realizar um fork do projeto.
+
+
+## Método 2 (usando a linha de comando)
+
+A partir de um repositório existente, fazer um fork e clonar diretamente do RStudio
+
+```{rcode, createfromgithub, include=TRUE}
+usethis::create_from_github("usuario_github/nome_do_repositorio",
+                            destdir = "diretorio em seu PC onde salvar o projeto", 
+                            fork = TRUE)#se igual a TRUE, irá fazer o fork do repositório. 
+                                        #ou seja, aparecerá uma copia deste repo no seu github  
+```

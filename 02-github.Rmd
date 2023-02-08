@@ -1,0 +1,18 @@
+# Github {#github}
+
+```{r github, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("imgs/githublogo.png")
+```
+
+O Github é um serviço de hospedagem para projetos que utilizam o controle de versão Git. Nessa plataforma podemos encontrar todos as commits dos projetos que estão lá hospedados,também acompanhar o desenvolvimento de projetos, quantas pessoas estão envolvidas com o projeto e etc.
+
+## Criando sua conta
+
+Para criar sua conta no Github é bem simples e rápido. Basta apenas acessar o link: [www.github.com](https://www.github.com) e clicar em "Sign up".
+
+Em seguida, o Github irá te guia em todo o processo de criação da sua conta:
+
+```{r github01, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("imgs/github01.png")
+```
+

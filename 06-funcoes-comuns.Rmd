@@ -1,0 +1,23 @@
+# Termos utilizados comumente
+
+- `Commit`: São mudanças realizadas no(s) arquivos(s) do projeto no repositório local (seu computador). Ao enviar as mudanças  atribuímos a mesma um texto (commit message) indicando o que está sendo alterado de modo claro e breve.
+
+
+- `Push`: Ato de enviar as mudanças que estão em repositório local (os commits)
+#para o repositório remoto (o github).
+
+
+- `Pull`: Ato de trazer as atualizações que estão em  repositorio remoto 
+#para o repositorio local (importante para trabalhos em conjunto).
+
+
+- `Pull Request`: Quando é a contribuição de uma pessoa "externa" no projeto.
+#O encarregado do projeto determina se aceita tal alteração ou não.
+
+
+Caso a pessoa tenha acesso ao projeto, quando um pull é enviado ele é integrado automaticamente no código.
+
+
+Quando há conflito de pushs, por exemplo, duas pessoas alteram a mesmalinha de um código, devemos resolver o conflito antes de que isto seja integrado o repositorio remoto! O github exibirá os conflitos, caso ocorram. 
+
+Dica: Siga boas práticas!

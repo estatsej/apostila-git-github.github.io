@@ -1,0 +1,37 @@
+# Trabalhando colaborativamente
+
+- Crie Branches (ramos) para realizar modificações
+
+
+- Antes de fazer qualquer modificação nos arquivos do repo, crie uma branch com:
+
+```{rcode, prinit, include=TRUE}
+usethis::pr_init(branch = "")
+#branch o nome da branch que você quer criar.
+```
+
+
+- Enviando as mudanças para o repositório remoto com:
+
+```{r, eval=FALSE ,prpush, include=TRUE}
+usethis::pr_push()
+```
+
+Caso voce não tenha permissão para alterar o codigo automaticamente então você deve aguardar que o dono do repositorio permita a alteração sugerida.
+
+Quando sua alteracao no codigo for aceite aprecerá o rótulo "Merged".
+
+
+- Após aceita a alteração use:
+
+```{rcode, prfinish, include=TRUE}
+usethis::pr_finish()
+```
+
+Isto realiza três operações:
+
+- Retorna para a branch principal (master);
+
+- Realiza o pull (atualizando o conteudo do código todo);
+
+- deleta a branch criada para enviar a modificação sugerida ao dono do repositório.

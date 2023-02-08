@@ -1,0 +1,23 @@
+--- 
+title: "Apostila Git e Github"
+author: "Estats Consultoria"
+affiliation: "Departamento de Estatística - Universidade Estadual de Maringá"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  O Objetivo deste repositório é ajudá-lo a configurar o git e github no Rstudio. Vamos lá!
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Sobre
+
+O Objetivo deste manual é ajudá-lo a configurar o Git e o Github no ambiente do Rstudio. . Vamos lá!
+
+```{r git, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork/reproducibility_court.png")
+```
