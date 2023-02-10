@@ -18,6 +18,7 @@ Nos próximos itens iremos aprender como instalar o Git no Windows e Linux.
 
 - Acesse o site: [Git](https://git-scm.com/downloads) e selecione o Sistema Operacional Windows.
 
+vrum
 
 - Em seguida abra o arquivo executável no seu computador. Clique em _Next_. Quando chegar nessa tela, o Instalador do Git irá perguntar qual editor você prefere utilizar como padrão para o Git:
 
