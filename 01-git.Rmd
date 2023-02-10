@@ -6,7 +6,7 @@ knitr::include_graphics("https://git-scm.com/images/logos/downloads/Git-Logo-2Co
 
 O Git é um sistema de controle de versão(popularmente conhecido como, versionamento). Cuja finalidade é gerenciar diferentes versões de um documento. Ele é muito utilizado por empresas e grupos com grandes equipes de pessoas para acompanhar as alterações e coordenar a colaboração entre uma equipe.
 
-etset
+outracoisa
 
 Alguns exemplos de projetos que utilizam o Git são: R, Python, Visual Studio Code, Linux, entre outros.
 
